@@ -1,0 +1,9 @@
+{
+	"name": "sampleprojectinsurance",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "812a3e88-2be0-43c0-b740-403e3161de88",
+		"tenantId": "b8719522-196d-4027-9290-c50c654e5d00"
+	}
+}
