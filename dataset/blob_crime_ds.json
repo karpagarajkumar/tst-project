@@ -1,0 +1,71 @@
+{
+	"name": "blob_crime_ds",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "crimedata"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Crime ID",
+				"type": "String"
+			},
+			{
+				"name": "Month",
+				"type": "String"
+			},
+			{
+				"name": "Reported by",
+				"type": "String"
+			},
+			{
+				"name": "Falls within",
+				"type": "String"
+			},
+			{
+				"name": "Longitude",
+				"type": "String"
+			},
+			{
+				"name": "Latitude",
+				"type": "String"
+			},
+			{
+				"name": "Location",
+				"type": "String"
+			},
+			{
+				"name": "LSOA code",
+				"type": "String"
+			},
+			{
+				"name": "LSOA name",
+				"type": "String"
+			},
+			{
+				"name": "Crime type",
+				"type": "String"
+			},
+			{
+				"name": "Last outcome category",
+				"type": "String"
+			},
+			{
+				"name": "Context",
+				"type": "String"
+			}
+		]
+	}
+}
